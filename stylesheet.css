@@ -1,0 +1,127 @@
+body {
+/*    background-color: #A7B0C1; */
+    font-family: Arial,Verdana,Geneva,sans-serif;
+    font-size: 76%;
+    line-height: 16px;
+    text-align: center;
+	padding:0;
+margin:0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+a:link {
+    color: #005741;
+}
+a {
+    line-height: 16px;
+    text-decoration: none;
+}
+a:hover {
+    color: #751A1A;
+}
+#sectionRight a {
+    text-decoration: underline;
+}
+.content {
+    background-color: #FFFFFF;
+    float: left;
+    font-size: 1.1em;
+    margin: 0 0 10px;
+    padding: 2%;
+    width: 96%;
+}
+#contentElement {
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    top: 0;
+    width: 760px;
+}
+header{
+background-color:#A7B0C1;
+padding:7px;
+}
+footer {
+border-top:1px solid #AAAAAA;
+    background-color: #F9F9F9;
+    clear: both;
+    padding: 2%;
+font-size:0.9em;
+}
+
+#sectionRight {
+    float: right;
+    width: 75%;
+padding:0;
+padding-left:10px;
+	border-left:1px solid black;
+}
+
+#sectionLeft {
+    float: left;
+    width: 20%;
+}
+
+.secondary {
+    margin: 0;
+    text-transform: none;
+}
+
+.secondary li {
+    border-bottom: 1px dashed #A1A1A1;
+    float: none;
+}
+ul, ol {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+}
+nav ul {
+    list-style-image: url("../img/dots.png");
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 8px 0 0 23px;
+    padding: 0;
+}
+h1 {
+    font-size: 1.6em;
+    font-weight: normal;
+    line-height: 20px;
+}
+h3 {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 20px;
+}
+img {
+    border: 0 none;
+}
+#mainNav ul {
+    list-style-image: url("../img/dots.png");
+    margin: 0;
+    padding: 0;
+}
+#mainNav li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 5px;
+    position: relative;
+float:left;
+font-size: 1.1em;
+}
+#breadcrumb {
+    font-size: 0.95em;
+}
+#breadcrumb li {
+    background: url("images/dots.png") no-repeat scroll 0 0 transparent;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 5px;
+    position: relative;
+}
+#breadcrumb ul {
+    margin: 0;
+    padding: 7px 0 7px 15px;
+}
