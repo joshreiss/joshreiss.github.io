@@ -1,2 +1,2 @@
 # joshreiss.github.io
-This is currently a work in progress, but made public for testing an associated github pages
+This is the main web page for Josh Reiss
